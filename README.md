@@ -60,6 +60,7 @@ Utiliser l'alias "production" comme un curseur mobile que l'on déplace entre le
 
 
 **Étape 9 : API : chargement du modèle actif**
+
 On a connecté l’API au Model Registry de MLflow pour que le chargement du modèle ne dépende plus de fichiers locaux mais de l'alias @production
 
 <img width="1640" height="385" alt="image" src="https://github.com/user-attachments/assets/7087d9a6-1274-40e1-916f-2707faa1d18d" />
