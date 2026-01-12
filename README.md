@@ -42,3 +42,12 @@ On a transformé le fichier technique (.joblib) en un artefact structuré au sei
 <img width="1585" height="231" alt="image" src="https://github.com/user-attachments/assets/5eed07f9-9f5a-4a06-a996-6b8cd3d0a1b6" />
 <img width="1635" height="190" alt="image" src="https://github.com/user-attachments/assets/b2319c7e-7d40-4aa8-8e9b-f830c3a67756" />
 
+
+**Étape 7 : Promotion d’un modèle (activation)**
+
+En créant l'alias production, on crée un "nom stable" qui pointe vers la meilleure version : cela permet de mettre à jour le modèle en un clic sans jamais avoir à modifier le code des applications qui l'utilisent.
+
+<img width="1282" height="72" alt="image" src="https://github.com/user-attachments/assets/bfce5a0f-df9a-41d9-b514-0cb3cbf4ebb4" />
+
+**Étape 8 : Rollback via MLflow Model Registry**
+
