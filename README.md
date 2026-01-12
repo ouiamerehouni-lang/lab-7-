@@ -57,3 +57,9 @@ Créer une commande de "sécurité" capable de revenir instantanément à une ve
 Utiliser l'alias "production" comme un curseur mobile que l'on déplace entre les versions (v1, v2) sans jamais modifier le code de l'application.
 
 <img width="1659" height="235" alt="image" src="https://github.com/user-attachments/assets/4ff5164c-ebdf-4ffa-93ad-f23811b42fe0" />
+
+
+**Étape 9 : API : chargement du modèle actif**
+On a connecté l’API au Model Registry de MLflow pour que le chargement du modèle ne dépende plus de fichiers locaux mais de l'alias @production
+
+<img width="1640" height="385" alt="image" src="https://github.com/user-attachments/assets/7087d9a6-1274-40e1-916f-2707faa1d18d" />
