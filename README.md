@@ -30,3 +30,6 @@ On démarre un serveur MLflow local avec SQLite et un artifact store dédié.
 
 **Étape 5 : Instrumentation réelle de train.py**
 
+On a commencé par injecter les capacités de tracking et de versioning de MLflow directement dans le script d'entraînement, transformant un processus manuel en une chaîne MLOps automatisée.
+
+
