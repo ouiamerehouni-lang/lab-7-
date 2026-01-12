@@ -51,3 +51,9 @@ En créant l'alias production, on crée un "nom stable" qui pointe vers la meill
 
 **Étape 8 : Rollback via MLflow Model Registry**
 
+On a  remplacé les anciens fichiers texte par le Model Registry de MLflow comme unique source de vérité, permettant de gérer les versions du modèle de manière professionnelle. Cette étape a consisté à :
+Abandonner les fichiers locaux pour utiliser un système centralisé et automatisé.
+Créer une commande de "sécurité" capable de revenir instantanément à une version stable si la nouvelle pose problème.
+Utiliser l'alias "production" comme un curseur mobile que l'on déplace entre les versions (v1, v2) sans jamais modifier le code de l'application.
+
+<img width="1659" height="235" alt="image" src="https://github.com/user-attachments/assets/4ff5164c-ebdf-4ffa-93ad-f23811b42fe0" />
