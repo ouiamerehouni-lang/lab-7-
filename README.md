@@ -21,3 +21,12 @@ On a commencé par configurer l'URI du serveur de tracking via une variable d'en
 
 
 **Étape 4 : Démarrage du serveur MLflow (tracking server)**
+
+On démarre un serveur MLflow local avec SQLite et un artifact store dédié.
+
+<img width="914" height="289" alt="image" src="https://github.com/user-attachments/assets/e1087102-4058-4376-900a-93660c782a7e" />
+<img width="1862" height="404" alt="image" src="https://github.com/user-attachments/assets/dc0cfd00-2c80-4b67-9a3f-745aadbde015" />
+
+
+**Étape 5 : Instrumentation réelle de train.py**
+
