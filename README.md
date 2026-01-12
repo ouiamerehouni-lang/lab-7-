@@ -36,3 +36,10 @@ On a commencé par injecter les capacités de tracking et de versioning de MLflo
 <img width="1667" height="843" alt="image" src="https://github.com/user-attachments/assets/7a0a9a65-41c6-47e4-9316-c1d1179514fc" />
 
 
+
+**Étape 6 : Observation du registry MLflow**
+
+On a transformé le fichier technique (.joblib) en un artefact structuré au sein de MLflow, lui donnant ainsi un statut d'actif officiel grâce à son immuabilité et sa traçabilité complète.
+<img width="1585" height="231" alt="image" src="https://github.com/user-attachments/assets/5eed07f9-9f5a-4a06-a996-6b8cd3d0a1b6" />
+<img width="1635" height="190" alt="image" src="https://github.com/user-attachments/assets/b2319c7e-7d40-4aa8-8e9b-f830c3a67756" />
+
